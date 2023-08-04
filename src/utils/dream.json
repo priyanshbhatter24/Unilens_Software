@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Furniture",
+      "detail": "Elevate your space, redefine possibilities",
+      "image": "./r1.png"
+    },
+    {
+      "name": "Preforms",
+      "detail": "Unleash freshness, savor convenience",
+      "image": "./r2.png"
+    },
+    {
+      "collegename": "Thermoware",
+      "detail": "Unleash freshness, savor convenience",
+      "image": "./r3.png"
+    }
+]

@@ -1,0 +1,173 @@
+.container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    border: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: calc(50% - 20px);
+    border-radius: 2rem;
+  }
+
+  .inputriser {
+    height: 1rem;
+  }
+  
+  .card1 {
+    margin-right: 4rem;
+  }
+
+  /* .text-inputs {
+    margin-bottom: 10px;
+  } */
+  
+  .ai-text-area {
+    background-color: #3F95A8;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    height: 29.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .textarea-topic {
+    background-color: transparent;
+    text-align: left;
+    font-size: .95rem;
+    margin-bottom: 1rem;
+    color: #363333;
+    font-weight: 300;
+  }
+
+  .text-box {
+    width: 100%;
+  }
+  
+  .inputbox {
+    position: relative;
+    width: auto;
+    margin-bottom: .8rem;
+    background-color: transparent;
+  }
+
+  /* .inputbox:active {
+    margin-bottom: .5rem;
+    padding-top: 1.5rem;
+  } */
+
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: .8em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: .5rem;
+    padding: 13px 10px 10px;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: rgba(54, 51, 51, 0.7);
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+    background-color: transparent;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: #2225269e;
+    transform: translateX(-6px) translateY(-24px);
+    font-size: 0.75rem;
+    padding: 0;
+    top: 1rem;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #3F95A8;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+    
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 34px;
+    
+  }
+
+  .cardhead {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    color: #363333;
+  }
+
+.leftcardtopics {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: .6rem;
+    background-color: transparent;
+    color: #363333;
+}
+
+.text-inputs {
+    background-color: transparent;
+    margin: 1.5rem;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Grid pattern for input boxes */
+
+.pi-grid-container {
+    width: 100%; /* Width of the container */
+}
+  
+.pi-grid-item {
+    width: 47%;
+    
+    float: left; /* Float to create the grid */
+    background-color: transparent; /* Some color for visual representation */
+}
+
+.leftgrid{
+    margin-right: 6%;
+}
+
+.pi-clear-float {
+    clear: both; /* Clears the float */
+}
+  

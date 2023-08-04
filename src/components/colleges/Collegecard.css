@@ -1,0 +1,110 @@
+.college-cards {
+    display: flex;
+}
+
+.card12 {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #126886;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 33%;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: #98CDD8;
+    padding: 9em;
+    border-radius: 1rem;
+    transform-style: preserve-3d;
+  }
+  
+  .card12:hover .content {
+    transform: rotateY(0.5turn);
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0rem;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    background-color: transparent;
+    border-radius: 1rem;
+  }
+  
+    .clg-name {
+    transform: translateZ(7rem);
+    font-size: 1.4rem;
+    margin: auto;
+    width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    background-color: transparent;
+  }
+  
+  .clg-location {
+    transform: translateZ(4rem);
+    background-color: transparent;
+    font-size: 1rem;
+    margin-top: .3rem;
+    margin-bottom: .8rem;
+  }
+  
+  .back {
+    transform: rotateY(0.5turn);
+    background-color: #98CDD8;
+  }
+  
+  .description {
+    transform: translateZ(3rem);
+    background-color: transparent;
+  }
+  
+  .clg-cred {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: transparent;
+    margin-top: .5rem;
+    margin-bottom: .85rem;
+  }
+
+  .clg-clear-float {
+    clear: both;
+  }
+
+  .clg-cred-nm {
+    background-color: transparent;
+    font-size: 1.1rem;
+    transform: translateZ(2rem);
+  }
+
+  .clg-cred-val {
+    transform: translateZ(1rem);
+    background-color: transparent;
+    background-color: #7CD337;
+    border-radius: 100rem;
+    /* padding: .1rem 1rem; */
+    width: 4.5rem;
+    height: 1.3rem;
+    font-size: 1.1rem;
+  }
+  .clg-category {
+    transform: translateZ(3rem);
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .clg-cred-cover {
+    margin-bottom: 1.5rem;
+  }
